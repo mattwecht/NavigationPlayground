@@ -11,6 +11,8 @@
 		BD595D2229F1E01300647C27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD595D2129F1E01300647C27 /* ContentView.swift */; };
 		BD595D2429F1E01500647C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD595D2329F1E01500647C27 /* Assets.xcassets */; };
 		BD595D2729F1E01500647C27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD595D2629F1E01500647C27 /* Preview Assets.xcassets */; };
+		BD595D2E29F1E22100647C27 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD595D2D29F1E22100647C27 /* SecondView.swift */; };
+		BD595D3029F1E4A400647C27 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD595D2F29F1E4A400647C27 /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BD595D2129F1E01300647C27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD595D2329F1E01500647C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD595D2629F1E01500647C27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD595D2D29F1E22100647C27 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		BD595D2F29F1E4A400647C27 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				BD595D1F29F1E01300647C27 /* NavigationPlaygroundApp.swift */,
 				BD595D2129F1E01300647C27 /* ContentView.swift */,
 				BD595D2329F1E01500647C27 /* Assets.xcassets */,
+				BD595D2D29F1E22100647C27 /* SecondView.swift */,
+				BD595D2F29F1E4A400647C27 /* ThirdView.swift */,
 				BD595D2529F1E01500647C27 /* Preview Content */,
 			);
 			path = NavigationPlayground;
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD595D3029F1E4A400647C27 /* ThirdView.swift in Sources */,
+				BD595D2E29F1E22100647C27 /* SecondView.swift in Sources */,
 				BD595D2229F1E01300647C27 /* ContentView.swift in Sources */,
 				BD595D2029F1E01300647C27 /* NavigationPlaygroundApp.swift in Sources */,
 			);
