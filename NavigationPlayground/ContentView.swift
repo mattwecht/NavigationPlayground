@@ -9,13 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+
+        NavigationStack{
+            VStack(){
+                Text("Want to know why I was fired from the Cal factory?")
+                
+                NavigationLink(destination: Text("I took a day off...")){
+                    Text("YES!!")
+                }//this tells us where to go once clicked
+                
+                NavigationLink(destination: Text("You are a boring person")){
+                    Text("No")
+                }
+                
+                
+            }
         }
-        .padding()
     }
 }
 
