@@ -33,6 +33,9 @@ struct ContentView: View {
                 NavigationLink(destination: ThirdView()){
                     Text("Fun facts")
                 }
+                NavigationLink(destination: tableView1()){
+                    Text("Table")
+                }
             }//creates a bar you can edit
             
             .navigationTitle("Question")//changes the back button on next screen

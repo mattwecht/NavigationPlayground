@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD21C1C529F474B5004DBFCF /* tableView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21C1C429F474B5004DBFCF /* tableView1.swift */; };
 		BD595D2029F1E01300647C27 /* NavigationPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD595D1F29F1E01300647C27 /* NavigationPlaygroundApp.swift */; };
 		BD595D2229F1E01300647C27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD595D2129F1E01300647C27 /* ContentView.swift */; };
 		BD595D2429F1E01500647C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD595D2329F1E01500647C27 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD21C1C429F474B5004DBFCF /* tableView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableView1.swift; sourceTree = "<group>"; };
 		BD595D1C29F1E01300647C27 /* NavigationPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD595D1F29F1E01300647C27 /* NavigationPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPlaygroundApp.swift; sourceTree = "<group>"; };
 		BD595D2129F1E01300647C27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				BD595D2129F1E01300647C27 /* ContentView.swift */,
 				BD595D2329F1E01500647C27 /* Assets.xcassets */,
 				BD595D2D29F1E22100647C27 /* SecondView.swift */,
+				BD21C1C429F474B5004DBFCF /* tableView1.swift */,
 				BD595D2F29F1E4A400647C27 /* ThirdView.swift */,
 				BD595D2529F1E01500647C27 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD21C1C529F474B5004DBFCF /* tableView1.swift in Sources */,
 				BD595D3029F1E4A400647C27 /* ThirdView.swift in Sources */,
 				BD595D2E29F1E22100647C27 /* SecondView.swift in Sources */,
 				BD595D2229F1E01300647C27 /* ContentView.swift in Sources */,
